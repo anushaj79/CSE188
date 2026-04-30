@@ -113,7 +113,7 @@ def run_gemini_analysis():
         with open(results_file, "w") as f:
             json.dump(analyzed_data, f, indent=2)
 
-    print("\n✅ Analysis complete! Check gemini_error_.json")
+    print("\n✅ Analysis complete! Check gemini_error_taxonomy.json")
 
 if __name__ == "__main__":
     run_gemini_analysis()

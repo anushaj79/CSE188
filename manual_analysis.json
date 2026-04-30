@@ -1,0 +1,602 @@
+[
+    {
+        "id": 206,
+        "model": "GPT",
+        "error_type": "Arithmetic Error",
+        "failed_step": "Step 3"
+    },
+    {
+        "id": 206,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 7"
+    },
+    {
+        "id": 76,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 2"
+    },
+    {
+        "id": 76,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 5"
+    },
+    {
+        "id": 165,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 165,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 87,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 5"
+    },
+    {
+        "id": 87,
+        "model": "CLAUDE",
+        "error_type": "Formatting/Extraction Error",
+        "failed_step": "Final Step"
+    },
+    {
+        "id": 252,
+        "model": "GPT",
+        "error_type": "Algebraic Error",
+        "failed_step": "Final Step"
+    },
+    {
+        "id": 252,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 200,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 7"
+    },
+    {
+        "id": 200,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 8"
+    },
+    {
+        "id": 290,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 290,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 244,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 244,
+        "model": "CLAUDE",
+        "error_type": "Arithmetic Error",
+        "failed_step": "Step 3"
+    },
+    {
+        "id": 119,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 2"
+    },
+    {
+        "id": 119,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 4"
+    },
+    {
+        "id": 247,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 247,
+        "model": "CLAUDE",
+        "error_type": "Arithmetic Error",
+        "failed_step": "Final Step"
+    },
+    {
+        "id": 239,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 239,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 6"
+    },
+    {
+        "id": 145,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 145,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 194,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 2"
+    },
+    {
+        "id": 194,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 6"
+    },
+    {
+        "id": 72,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 2"
+    },
+    {
+        "id": 72,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 5"
+    },
+    {
+        "id": 123,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 2"
+    },
+    {
+        "id": 123,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 5"
+    },
+    {
+        "id": 331,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 331,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 173,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 173,
+        "model": "CLAUDE",
+        "error_type": "Formatting/Extraction Error",
+        "failed_step": "Final Step"
+    },
+    {
+        "id": 294,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 294,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 196,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 196,
+        "model": "CLAUDE",
+        "error_type": "Arithmetic Error",
+        "failed_step": "Step 3"
+    },
+    {
+        "id": 343,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 343,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 151,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 151,
+        "model": "CLAUDE",
+        "error_type": "Formatting/Extraction Error",
+        "failed_step": "Final Step"
+    },
+    {
+        "id": 224,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 224,
+        "model": "CLAUDE",
+        "error_type": "Arithmetic Error",
+        "failed_step": "Step 2"
+    },
+    {
+        "id": 63,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 4"
+    },
+    {
+        "id": 63,
+        "model": "CLAUDE",
+        "error_type": "Formatting/Extraction Error",
+        "failed_step": "Final Step"
+    },
+    {
+        "id": 163,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 163,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 25,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 7"
+    },
+    {
+        "id": 25,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 3"
+    },
+    {
+        "id": 219,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 3"
+    },
+    {
+        "id": 219,
+        "model": "CLAUDE",
+        "error_type": "Arithmetic Error",
+        "failed_step": "Step 2"
+    },
+    {
+        "id": 263,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 263,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 3"
+    },
+    {
+        "id": 195,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 195,
+        "model": "CLAUDE",
+        "error_type": "Arithmetic Error",
+        "failed_step": "Step 2"
+    },
+    {
+        "id": 69,
+        "model": "GPT",
+        "error_type": "Formatting/Extraction Error",
+        "failed_step": "Final Step"
+    },
+    {
+        "id": 69,
+        "model": "CLAUDE",
+        "error_type": "Formatting/Extraction Error",
+        "failed_step": "Final Step"
+    },
+    {
+        "id": 146,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 146,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 348,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 348,
+        "model": "CLAUDE",
+        "error_type": "Arithmetic Error",
+        "failed_step": "Final Step"
+    },
+    {
+        "id": 313,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 313,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 3"
+    },
+    {
+        "id": 260,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 260,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 292,
+        "model": "GPT",
+        "error_type": "Algebraic Error",
+        "failed_step": "Final Step"
+    },
+    {
+        "id": 292,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 109,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 5"
+    },
+    {
+        "id": 109,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 4"
+    },
+    {
+        "id": 193,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 193,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 4"
+    },
+    {
+        "id": 107,
+        "model": "GPT",
+        "error_type": "Formatting/Extraction Error",
+        "failed_step": "Final Step"
+    },
+    {
+        "id": 107,
+        "model": "CLAUDE",
+        "error_type": "Formatting/Extraction Error",
+        "failed_step": "Final Step"
+    },
+    {
+        "id": 175,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 175,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 2"
+    },
+    {
+        "id": 345,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 345,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 333,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 2"
+    },
+    {
+        "id": 333,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 192,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 192,
+        "model": "CLAUDE",
+        "error_type": "Arithmetic Error",
+        "failed_step": "Step 2"
+    },
+    {
+        "id": 357,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 357,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 277,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 277,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 356,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 356,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 262,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 262,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 243,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 243,
+        "model": "CLAUDE",
+        "error_type": "Arithmetic Error",
+        "failed_step": "Step 3"
+    },
+    {
+        "id": 106,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 6"
+    },
+    {
+        "id": 106,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 4"
+    },
+    {
+        "id": 318,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 318,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 310,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 2"
+    },
+    {
+        "id": 310,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 1"
+    },
+    {
+        "id": 82,
+        "model": "GPT",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 2"
+    },
+    {
+        "id": 82,
+        "model": "CLAUDE",
+        "error_type": "Conceptual/Setup Error",
+        "failed_step": "Step 4"
+    }
+]

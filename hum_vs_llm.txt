@@ -1,0 +1,58 @@
+==================================================
+🏆 EVALUATOR RELIABILITY (VS HUMAN GROUND TRUTH)
+==================================================
+Total human-graded samples evaluated: 100
+Gemini 1.5 Flash Accuracy: 62.0%
+Groq (Llama 3) Accuracy:   29.0%
+LLM-to-LLM Agreement:      34.0%
+
+==================================================
+📊 CONFUSION MATRIX: HUMAN vs GEMINI
+Rows = True Human Label, Columns = Gemini Prediction
+==================================================
+gemini_error                 algebraic error  arithmetic error  conceptual setup error  formatting extraction error
+human_error                                                                                                        
+algebraic error                            0                 0                       2                            0
+arithmetic error                           7                 1                       0                            2
+conceptual setup error                     6                 0                      53                           21
+formatting extraction error                0                 0                       0                            8
+
+==================================================
+📊 CONFUSION MATRIX: HUMAN vs GROQ
+Rows = True Human Label, Columns = Groq Prediction
+==================================================
+groq_error                   algebraic error  arithmetic error  conceptual setup error
+human_error                                                                           
+algebraic error                            2                 0                       0
+arithmetic error                           8                 1                       1
+conceptual setup error                    53                 1                      26
+formatting extraction error                7                 0                       1
+
+==================================================
+🔎 QUALITATIVE EXAMPLES TO PUT IN YOUR PAPER
+Cases where Gemini, Groq, and Human ALL disagreed:
+==================================================
+     id   model             human_error                 gemini_error              groq_error
+5   165  CLAUDE  conceptual setup error  formatting extraction error         algebraic error
+9   252  CLAUDE  conceptual setup error  formatting extraction error         algebraic error
+13  290  CLAUDE  conceptual setup error  formatting extraction error         algebraic error
+23  145  CLAUDE  conceptual setup error  formatting extraction error         algebraic error
+31  331  CLAUDE  conceptual setup error  formatting extraction error         algebraic error
+35  294  CLAUDE  conceptual setup error  formatting extraction error         algebraic error
+37  196  CLAUDE        arithmetic error              algebraic error  conceptual setup error
+39  343  CLAUDE  conceptual setup error  formatting extraction error         algebraic error
+47  163  CLAUDE  conceptual setup error  formatting extraction error         algebraic error
+53  263  CLAUDE  conceptual setup error  formatting extraction error         algebraic error
+59  146  CLAUDE  conceptual setup error  formatting extraction error         algebraic error
+61  348  CLAUDE        arithmetic error  formatting extraction error         algebraic error
+63  313  CLAUDE  conceptual setup error  formatting extraction error         algebraic error
+65  260  CLAUDE  conceptual setup error  formatting extraction error         algebraic error
+67  292  CLAUDE  conceptual setup error  formatting extraction error         algebraic error
+69  109  CLAUDE  conceptual setup error  formatting extraction error        arithmetic error
+75  175  CLAUDE  conceptual setup error  formatting extraction error         algebraic error
+77  345  CLAUDE  conceptual setup error  formatting extraction error         algebraic error
+83  357  CLAUDE  conceptual setup error  formatting extraction error         algebraic error
+85  277  CLAUDE  conceptual setup error  formatting extraction error         algebraic error
+87  356  CLAUDE  conceptual setup error  formatting extraction error         algebraic error
+89  262  CLAUDE  conceptual setup error  formatting extraction error         algebraic error
+95  318  CLAUDE  conceptual setup error  formatting extraction error         algebraic error
