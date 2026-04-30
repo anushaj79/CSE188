@@ -8,3 +8,5 @@ __pycache__/
 config.py
 
 test/
+
+error_analysis_worksheet.txt

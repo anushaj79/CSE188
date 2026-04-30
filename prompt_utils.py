@@ -5,13 +5,16 @@ import requests
 from openai import OpenAI
 import anthropic
 import google.generativeai as genai
-from config import OPENAI_API_KEY, ANTHROPIC_API_KEY, GEMINI_API_KEY
+from groq import Groq
+from config import OPENAI_API_KEY, ANTHROPIC_API_KEY, GEMINI_API_KEY, GROQ_API_KEY
 
 # API CLIENT INITIALIZATION
 
 openai_client = OpenAI(api_key=OPENAI_API_KEY)
 anthropic_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 genai.configure(api_key=GEMINI_API_KEY)
+groq_client = Groq(api_key=GROQ_API_KEY)
+
 
 # DATASET UTILITIES
 
@@ -48,12 +51,24 @@ def prompt_claude(question, instruction):
 
 def prompt_gemini(question, instruction):
     """Send prompt to Gemini 1.5 Flash and return response."""
-    model = genai.GenerativeModel('gemini-1.5-flash')
+    model = genai.GenerativeModel('gemini-2.5-flash')
     
     full_prompt = f"{instruction}\n\n{question}"
     
     response = model.generate_content(full_prompt)
     return response.text.strip()
+
+def prompt_groq(question, instruction):
+    """Send prompt to Llama 3 via Groq and return response."""
+    completion = groq_client.chat.completions.create(
+        model="llama-3.1-8b-instant",
+        messages=[
+            {"role": "system", "content": instruction},
+            {"role": "user", "content": question}
+        ],
+        temperature=0
+    )
+    return completion.choices[0].message.content.strip()
 
 # TEXT PROCESSING AND EXTRACTION
 
