@@ -46,6 +46,15 @@ def prompt_claude(question, instruction):
     )
     return response.content[0].text.strip()
 
+def prompt_gemini(question, instruction):
+    """Send prompt to Gemini 1.5 Flash and return response."""
+    model = genai.GenerativeModel('gemini-1.5-flash')
+    
+    full_prompt = f"{instruction}\n\n{question}"
+    
+    response = model.generate_content(full_prompt)
+    return response.text.strip()
+
 # TEXT PROCESSING AND EXTRACTION
 
 def extract_answer_tag(text):
